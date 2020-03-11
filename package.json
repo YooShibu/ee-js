@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YooShibu/ee-js.git"
+    "url": "git+https://github.com/YooShibu/events.git"
   },
   "keywords": [
     "event",
