@@ -1,6 +1,6 @@
 # events
 
-Fast event emitter for javascript. Check the [benchmarks](https://github.com/YooShibu/events.git/benchmarks).
+Fast event emitter for javascript. Check the [benchmarks](https://github.com/YooShibu/events/tree/master/benchmarks).
 
 This is the benchmark result that emit event to the single listener
 ```
@@ -15,7 +15,7 @@ Fastest is @yoshibu/events
 ```
 
 ## Features
-- [Fast](https://github.com/YooShibu/events.git/benchmarks)
+- [Fast](https://github.com/YooShibu/events/tree/master/benchmarks)
 - Compiled by the [buble](https://buble.surge.sh/guide), and the compile target is 'ie8'
 - Support ES2015 module, CommonJS, and the browser
 - Support Wildcard event
