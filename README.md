@@ -51,3 +51,6 @@ emitter.emit('foo', 'hello');
 // hello
 // foo hello
 ```
+
+## Liccence
+[MIT License](https://opensource.org/licenses/MIT) © YooShibu
