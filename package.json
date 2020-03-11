@@ -1,0 +1,47 @@
+{
+  "name": "@yoshibu/events",
+  "version": "1.0.0",
+  "description": "fast event emitter",
+  "main": "dist/index.js",
+  "main:browser": "dist/events.browser.js",
+  "module": "index.mjs",
+  "scripts": {
+    "benchmark": "npm run benchmark --prefix benchmarks",
+    "build": "rollup -c",
+    "coverage": "nyc -r html npm test",
+    "gzip-size": "gzip-size dist/eejs.browser.js",
+    "pretest": "npm run build",
+    "prebenchmark": "npm run build",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YooShibu/ee-js.git"
+  },
+  "keywords": [
+    "event",
+    "eventemitter"
+  ],
+  "author": {
+    "name": "YooShibu",
+    "email": "yoshibu.develop@gmail.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "index.mjs",
+    "index.d.ts"
+  ],
+  "bugs": {
+    "url": "https://github.com/YooShibu/events/issues"
+  },
+  "homepage": "https://github.com/YooShibu/events#readme",
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.1",
+    "gzip-size-cli": "^3.0.0",
+    "nyc": "^15.0.0",
+    "rollup": "^1.32.0",
+    "rollup-plugin-terser": "^5.2.0"
+  }
+}
