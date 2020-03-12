@@ -47,9 +47,9 @@ emitter.on('foo', message => console.log(message));
 emitter.on('*', (event, message) => console.log(event, message));
 
 emitter.emit('foo', 'hello');
-// your console shows...
-// hello
+// --- console ---
 // foo hello
+// hello
 ```
 
 ## API
