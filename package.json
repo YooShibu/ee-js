@@ -1,6 +1,6 @@
 {
   "name": "@yoshibu/events",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "fast event emitter",
   "main": "dist/index.js",
   "main:browser": "dist/events.browser.js",
